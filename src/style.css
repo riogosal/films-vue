@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Anton&family=Carter+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@900&family=Playpen+Sans&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    font-family: "Playpen Sans", sans-serif;
+  }
+}
+
+@layer components {
+  .cardWrapper {
+    @apply grid grid-cols-2 p-10;
+  }
+
+  .luffyAnimated {
+    @apply animate-bounce animate-infinite animate-duration-[3000ms] animate-delay-1000 animate-ease-out animate-normal animate-fill-backwards;
+  }
+}
+body {
+  background-color: #451952;
+}
+
+.f-well {
+  font-family: "Inter Var", sans-serif;
+}
+
+@layer utilities {
+  .animate-bounce-infinite {
+    animation-name: bounce;
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    animation-duration: 3100ms;
+    animation-delay: 1000ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+  }
+
+  @keyframes bounce {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "data":[
+        {
+            "id":1,
+            "title":"The Shawshank Redemption",
+            "genre":"Drama",
+            "deskripsi": "lorem jnasj jansjnanj0",
+            "durasi": 120 ,
+            "rating": "8" ,
+            "keterangan":"sudah Nonton"
+        },
+        {
+            "id":2,
+            "title":"The Shawshank Redemption",
+            "genre":"Drama",
+            "deskripsi": "lorem jnasj jansjnanj0",
+            "durasi": 120 ,
+            "rating": "8" ,
+            "keterangan":"sudah Nonton"
+        },
+        {
+            "id":3,
+            "title":"The Shawshank Redemption",
+            "genre":"Drama",
+            "deskripsi": "lorem jnasj jansjnanj0",
+            "durasi": 120 ,
+            "rating": "8" ,
+            "keterangan":"sudah Nonton"
+        }
+    ]
+}
